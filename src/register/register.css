@@ -1,13 +1,22 @@
 .register{
     width: 100%;
     min-height: 100vh;
-    padding: 30px;
-    background: rgb(229, 229, 247);
+    padding: 50px;
+    background: rgb(242, 242, 253);
 }
 .quti{
     margin: 0px auto;
     width: 30%;
     min-height: 50vh;
+    background: white;
+    padding: 20px;
+    border-radius: 3px;
+    text-align: center;
+}
+.quti1{
+    margin: 0px auto;
+    width: 40%;
+    min-height: 40vh;
     background: white;
     padding: 20px;
     border-radius: 3px;
@@ -41,4 +50,10 @@
 .text{
     text-decoration: none;
     color: red;
+}
+.text1{
+    text-align: left;
+}
+.separator{
+    color: rgba(0, 0, 0, 0.555);
 }
