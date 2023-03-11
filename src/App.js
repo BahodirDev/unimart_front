@@ -4,6 +4,7 @@ import Register from './register/Register';
 import Login from './register/Login';
 import Navbar from './componets/Navbar';
 import Password from './register/Password';
+import Seller from './seller/Seller';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
         <Route path='/password' element={<Password />} />
+        <Route path='/seller' element={<Seller />} />
       </Routes>
     </div>
   );

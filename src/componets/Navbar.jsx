@@ -16,7 +16,7 @@ function Navbar() {
                     <div className='navbar_center_page'>
                         <ul>
                             <li><NavLink className="navbar_navlink"> Help line +998997960152</NavLink></li>
-                            <li><NavLink className="navbar_navlink"> Sotuvchi bo'ling</NavLink></li>
+                            <li><NavLink to={'/seller'} className="navbar_navlink"> Sotuvchi bo'ling</NavLink></li>
                             <li><NavLink to={'/login'} className="navbar_navlink"> Kirish</NavLink></li>
                             <li><NavLink to={'/register'} className="navbar_navlink">Ro'yhatdan o'tish</NavLink></li>
                         </ul>

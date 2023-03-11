@@ -1,0 +1,40 @@
+.seller{
+    width: 100%;
+    min-height: 100vh;
+    padding: 23px;
+    background: rgb(242, 242, 253);
+}
+.text3{
+    width: 93%;
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.text4{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.text5{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.492);
+}
+.quti1{
+    margin: 50px auto;
+    width: 40%;
+    min-height: 50px;
+    padding: 0;
+    text-align: left;
+}
+.quti2{
+    margin: auto;
+    width: 40%;
+    min-height: 50px;
+    padding: 0;
+    text-align: right;
+}
+.btn1{
+    width: 50%;
+}
