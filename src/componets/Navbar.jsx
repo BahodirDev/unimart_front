@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css'
 import Dpopdown2 from './dropdowns/dpopdown2'
 import LaungareDropdown from './dropdowns/LaungareDropdown'
 import { NavLink } from "react-router-dom"
@@ -16,8 +17,8 @@ function Navbar() {
                         <ul>
                             <li><NavLink className="navbar_navlink"> Help line +998997960152</NavLink></li>
                             <li><NavLink className="navbar_navlink"> Sotuvchi bo'ling</NavLink></li>
-                            <li><NavLink className="navbar_navlink"> Kirish</NavLink></li>
-                            <li><NavLink className="navbar_navlink">Ro'yhatdan o'tish</NavLink></li>
+                            <li><NavLink to={'/login'} className="navbar_navlink"> Kirish</NavLink></li>
+                            <li><NavLink to={'/register'} className="navbar_navlink">Ro'yhatdan o'tish</NavLink></li>
                         </ul>
                     </div>
                 </div>
