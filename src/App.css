@@ -1,36 +1,79 @@
-
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar_div {
+  width: 100%;
+  height: 150px;
+  border-bottom: 0.5px solid rgb(205, 203, 203);
+  box-shadow: inset;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar_top_div {
+  width: 100%;
+  height: 35px;
+  border-bottom: 0.5px solid rgb(205, 203, 203);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar_top_div .navbar_center_div_ {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar_center_div_ {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar_center_div_ .language_div {
+  width: 60%;
+  height: 100%;
+}
+
+.navbar_center_div_ .navbar_center_page {
+  width: 40%;
+  height: 100%;
+}
+
+.navbar_bottom_div {
+  width: 100%;
+  height: 45px;
+}
+.language_div {
+  display: flex;
+  align-items: center;
+}
+#select_laungare {
+  border: none;
+  width: 100px;
+  height: 100%;
+  font-size: 15px;
+  padding: 0;
+  box-shadow: none;
+  color: rgb(192, 190, 190);
+}
+.navbar_center_page ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar_center_page ul li {
+  border-right: 0.5px solid rgb(205, 203, 203);
+  /* padding-right: 16px; */
+  padding: 5px 10px;
+}
+.navbar_navlink {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(131, 129, 129);
+}
+.navbar_navlink:hover {
+  color: rgb(192, 190, 190);
 }
