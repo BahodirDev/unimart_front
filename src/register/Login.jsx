@@ -28,12 +28,14 @@ function Login(props) {
                     <input type="email" className='inp form-control' value={email} placeholder="Elektron pochta" onChange={(e) => { setEmail(e.target.value) }} />
                     <input type="password" className='inp form-control' value={password} placeholder="Parol" onChange={(e) => { setPassword(e.target.value) }} />
                     <div className='a mt-4'>
-                        <label className="aiz-checkbox label">
+                        <label className="label separator">
                             <input type="checkbox" required="" />
                             <span className="opacity-60">Meni eslab qoling</span>
                             <span className="aiz-square-check"></span>
                         </label>
-                        <span className="opacity-60">Parolni unutdingizmi</span>
+                        <span className="opacity-60">
+                            <Link to={'/password'} className="text" >Parolni unutdingizmi</Link>
+                        </span>
                     </div>
                     <button className='btn btn-danger' onClick={handleSubmit}>Kirish</button>
                 </form>

@@ -30,7 +30,7 @@ function Register(props) {
                     <input type="email" className='inp form-control' value={email} placeholder="Elektron pochta" onChange={(e) => { setEmail(e.target.value) }} required />
                     <input type="password" className='inp form-control' value={password} placeholder="Parol" onChange={(e) => { setPassword(e.target.value) }} required />
                     <input type="password" className='inp form-control' value={password2} placeholder="Parolni tasdiqlang" onChange={(e) => { setPassword2(e.target.value) }} required />
-                    <label className="label">
+                    <label className="label separator">
                         <input type="checkbox" required />
                         <span className="opacity-60 mt-4">Ro'yxatdan o'tish orqali siz bizning shartlarimizga rozilik bildirasiz.</span>
                         <span className="aiz-square-check"></span>
