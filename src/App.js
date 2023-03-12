@@ -11,8 +11,8 @@ import CreateProduct from './seller/CreateProduct';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <Routes>
+      <Navbar/>
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
         <Route path='/password' element={<Password />} />
