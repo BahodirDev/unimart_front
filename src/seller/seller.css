@@ -1,0 +1,139 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.seller{
+    width: 100%;
+    min-height: 100vh;
+    padding: 23px;
+    background: rgb(242, 242, 253);
+}
+.text3{
+    width: 93%;
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.text4{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.text5{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.492);
+}
+.quti1{
+    margin: 50px auto;
+    width: 40%;
+    min-height: 50px;
+    padding: 0;
+    text-align: left;
+}
+.quti2{
+    margin: auto;
+    width: 40%;
+    min-height: 50px;
+    padding: 0;
+    text-align: right;
+}
+.btn1{
+    width: 50%;
+}
+.aiz-sidebar{
+    width: 20%;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+    background: rgb(242, 242, 253);
+}
+.text-primary{
+    font-size: 17px;
+}
+.img{
+    width: 125px;
+}
+.email{
+    font-size: 13px;
+}
+.inp7{
+    height: 40px;
+    background: rgba(0, 0, 0, 0.053);
+}
+.aiz-side-nav-link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.632);
+}
+.aiz-side-nav-item{
+    margin: 20px auto;
+    text-decoration: none;
+    list-style: none;
+}
+.aiz-side-nav-list{
+    text-align: start;
+}
+.dropdown-menu{
+    border: none;
+    background: rgba(242, 242, 253, 0.895);
+}
+.icn{
+    color: rgba(0, 0, 0, 0.632);
+}
+.aiz-topbar{
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.126);
+}
+.setting{
+    width: 100%;
+    height: 91.3vh;
+    overflow-y: scroll;
+}
+.quti77{
+    width: 100%;
+    height: 100vh;
+}
+.dokon{
+    width: 100%;
+    padding: 30px;
+}
+.dokon2{
+    border: 1px solid rgba(0, 0, 0, 0.166);
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 95%;
+}
+.asosiy{
+    width: 100%;
+    padding-top:15px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.166);
+}
+.card-body{
+    padding: 25px;
+}
+.btn2{
+    width: 20%;
+}
+.dokon3{
+    width: 100%;
+    text-align: right;
+}
+.biz{
+    font-size: 10px;
+}
+.foot{
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.126);
+    padding: 15px;
+}
+.setting1{
+    width: 100%;
+    height: 91.3vh;
+    overflow-y: scroll;
+    padding: 30px;
+}

@@ -1,20 +1,38 @@
 import React, { useState } from 'react';
-import { Link,useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import axios from 'axios'
 import './register.css'
 
 function Login(props) {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const [check, setChecked] = useState('')
     const navigate = useNavigate();
-    const [data, setData] = useState()
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        if (!email || !password) {
-            window.alert("Formani to'ldiring")
-        } else {
-            setData({ email: email, password: password})
-            console.log(data);
-            navigate('/')
+        if (!check) {
+            window.alert("Meni eslab qolish belgilanmagan")
+        }
+        else {
+            if (password.length < 8) {
+                window.alert("Parol 8 ta belgidan kam bo'lmasin")
+            } else {
+                let data1 = {
+                    email: email,
+                    password: password,
+                }
+                try {
+                    let { data } = await axios.post('https://unimart-fast.up.railway.app/api/v1/seller/login', data1)
+                    if (data.msg) {
+                        window.alert(data.msg)
+                    } else {
+                        localStorage.setItem('userinfo', JSON.stringify(data));
+                        navigate('/seller/dashboard')
+                    }
+                } catch (error) {
+                    console.log(error);
+                }
+            }
         }
     }
     // const [check, setChek] = useState(false)
@@ -29,7 +47,7 @@ function Login(props) {
                     <input type="password" className='inp form-control' value={password} placeholder="Parol" onChange={(e) => { setPassword(e.target.value) }} />
                     <div className='a mt-4'>
                         <label className="label separator">
-                            <input type="checkbox" required="" />
+                            <input type="checkbox" onChange={(e) => { setChecked(e.target.value) }} required="" />
                             <span className="opacity-60">Meni eslab qoling</span>
                             <span className="aiz-square-check"></span>
                         </label>

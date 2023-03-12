@@ -18,7 +18,7 @@ function Password(props) {
     }
     return (
         <div className='register'>
-            <div className='quti1'>
+            <div className='quti3'>
                 <div className='text1'>
                     <h3>Parolni unutdingizmi</h3>
                     <p className='separator'>Parolni tiklash uchun elektron pochta manzilingizni kiriting.</p>
