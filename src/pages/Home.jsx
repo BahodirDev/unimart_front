@@ -1,6 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import Accordion from '../componets/Accordion'
+import AuctionProducts from '../componets/AuctionProducts'
+import BestSellers from '../componets/BestSellers'
 import HomeCarusel from '../componets/carusels/HomeCarusel'
+import NewProducts from '../componets/NewProducts'
 
 function Home() {
     return (
@@ -8,24 +12,9 @@ function Home() {
             <div className='center_div_body'>
                 <div className='body_div2'>
                     <div className='categpry_div'>
-                        <div>
-                            <h5>Kategotiyalar</h5>
-                        </div>
-                        <div className='category_card_body'>
-                            <NavLink to={"/category"} className='category_card'>
-                                <img src="https://unimart.uz/uploads/all/8K6TpHoouUdZY2Zw0WHPiWkNWHorugIs856jbeVW.png" alt="" />
-                                <p>Telefonlar va aksessuarlar</p>
-                            </NavLink>
-                            <NavLink to={"/category"} className='category_card'>
-                                <img src="https://unimart.uz/uploads/all/rxGxryBY0H07QaUoOmh3AWXlm0QIaKgUmdFrKl0e.png" alt="" />
-                                <p>Kompyuterlar va ofis jihozlari</p>
-                            </NavLink>
-                            <NavLink to={"/category"} className='category_card'>
-                                <img src="https://unimart.uz/uploads/all/nwnSYA4Z5eyVsZBXynMrqfeAdVrELOl3f7zao5mx.jpg" alt="" />
-                                <p>Maishiy texnika</p>
-                            </NavLink>
-                        </div>
+                        <Accordion />
                     </div>
+
                     <div className='carusel_div'>
                         <div>
                             <HomeCarusel />
@@ -55,6 +44,62 @@ function Home() {
                                 <img src="https://unimart.uz/uploads/all/1Umem5TVj3SQJNHtWxCIdJeE9q7co49tfOnCKCKR.jpg" alt="" />
                                 <p>36,000 UZS</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='category_img_body'>
+                <div className='category_img'>
+                    <NavLink to={"/category"}>
+                        <img src="https://unimart.uz/uploads/all/DwqfyEOvqUmlfhuBTtuXHKFxogWYDhHMH6JLZJuN.png" alt="" />
+                    </NavLink>
+                    <NavLink to={"/category"}>
+                        <img src="https://unimart.uz/uploads/all/5jAhiF0xeZ8OHabvBW5LN5F332oNLEygo8M9Q1ll.png" alt="" />
+                    </NavLink>
+                    <NavLink to={"/category"}>
+                        <img src="https://unimart.uz/uploads/all/nZRCgBOuCBp8XTVOONoFk5tIarvBH3Zcy7oXHis3.png" alt="" />
+                    </NavLink>
+                </div>
+            </div>
+            <div className='new_products_div'>
+                <NewProducts title={"Yangi mahsulotlar"} />
+            </div>
+            <div className='new_products_div'>
+                <NewProducts title={"Tanlangan mahsulotlar"} />
+            </div>
+            <div className='new_products_div'>
+                <NewProducts title={"Eng yaxshi sotilgan"} buttonTitle={"Top 20"} />
+            </div>
+            <div className='auction_aroducts_div'>
+                <AuctionProducts />
+            </div>
+            <div className='best_sellers_div'>
+                <BestSellers />
+            </div>
+            <div className='policy_div'>
+                <div className='policy_div2'>
+                    <div className='policy_div2_card'>
+                        <div>
+                            <i class="material-icons"> description</i>
+                            <p>Terms & conditions</p>
+                        </div>
+                    </div>
+                    <div className='policy_div2_card'>
+                        <div>
+                            <i class="material-icons"> arrow_back</i>
+                            <p>Return policy</p>
+                        </div>
+                    </div>
+                    <div className='policy_div2_card'>
+                        <div>
+                            <i class="material-icons"> donut_large</i>
+                            <p>Support Policy</p>
+                        </div>
+                    </div>
+                    <div className='policy_div2_card'>
+                        <div>
+                            <i class="material-icons"> error_outline</i>
+                            <p>Privacy pollicy</p>
                         </div>
                     </div>
                 </div>
