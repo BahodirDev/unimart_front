@@ -15,8 +15,8 @@ import Policy from './componets/Policy';
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
-        <Navbar />
         <Route path='/' element={<Home />} />
         <Route path='/product' element={<Product />} />
         <Route path='/register' element={<Register />} />
