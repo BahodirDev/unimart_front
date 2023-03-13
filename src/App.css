@@ -13,7 +13,6 @@ body {
   background: white;
   /* position: fixed; */
 }
-
 .navbar_top_div {
   width: 100%;
   height: 40px;
@@ -56,7 +55,7 @@ body {
   align-items: center;
 }
 
-#select_laungare {
+#select_laungare{
   border: none;
   width: 100px;
   height: 100%;
