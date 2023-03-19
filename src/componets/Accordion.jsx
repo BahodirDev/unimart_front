@@ -15,7 +15,7 @@ function Accordion() {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                            <div classNameName='category_card_body'>
+                            <div className='category_card_body'>
                                 <NavLink to={"/category"} className='category_card'>
                                     <img src="https://unimart.uz/uploads/all/8K6TpHoouUdZY2Zw0WHPiWkNWHorugIs856jbeVW.png" alt="" />
                                     <p>Telefonlar va aksessuarlar</p>

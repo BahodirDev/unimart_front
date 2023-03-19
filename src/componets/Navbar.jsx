@@ -30,7 +30,7 @@ function Navbar() {
                         <div className='search_div'>
                             <input type="text" placeholder='Qidirish..' className='navbar_search_input' />
                             <div className='search_button'>
-                                <i class="material-icons">search</i>
+                                <i className="material-icons">search</i>
                             </div>
                         </div>
                         <div className='corzinka_div'>

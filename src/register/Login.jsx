@@ -8,6 +8,7 @@ function Login(props) {
     const [password, setPassword] = useState('')
     const [check, setChecked] = useState('')
     const navigate = useNavigate();
+    
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (!check) {

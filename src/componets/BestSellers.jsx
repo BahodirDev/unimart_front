@@ -14,7 +14,7 @@ function BestSellers() {
                     </div>
                     <div className='best_sellers_button'>
                         <h5>Marcher1 </h5>
-                        <button>Vist Store<i class="material-icons">chevron_right</i></button>
+                        <button>Vist Store<i className="material-icons">chevron_right</i></button>
                     </div>
                 </div>
                 <div className='best_sellers_card'>
@@ -23,7 +23,7 @@ function BestSellers() {
                     </div>
                     <div className='best_sellers_button'>
                         <h5>Marcher1 </h5>
-                        <button>Vist Store<i class="material-icons">chevron_right</i></button>
+                        <button>Vist Store<i className="material-icons">chevron_right</i></button>
                     </div>
                 </div>
                 <div className='best_sellers_card'>
@@ -32,7 +32,7 @@ function BestSellers() {
                     </div>
                     <div className='best_sellers_button'>
                         <h5>Marcher1 </h5>
-                        <button>Vist Store<i class="material-icons">chevron_right</i></button>
+                        <button>Vist Store<i className="material-icons">chevron_right</i></button>
                     </div>
                 </div>
                 <div className='best_sellers_card'>
@@ -41,7 +41,7 @@ function BestSellers() {
                     </div>
                     <div className='best_sellers_button'>
                         <h5>Marcher1 </h5>
-                        <button>Vist Store<i class="material-icons">chevron_right</i></button>
+                        <button>Vist Store<i className="material-icons">chevron_right</i></button>
                     </div>
                 </div>
                 <div className='best_sellers_card'>
@@ -50,7 +50,7 @@ function BestSellers() {
                     </div>
                     <div className='best_sellers_button'>
                         <h5>Marcher1 </h5>
-                        <button>Vist Store<i class="material-icons">chevron_right</i></button>
+                        <button>Vist Store<i className="material-icons">chevron_right</i></button>
                     </div>
                 </div>
                 <div className='best_sellers_card'>
@@ -59,7 +59,7 @@ function BestSellers() {
                     </div>
                     <div className='best_sellers_button'>
                         <h5>Marcher1 </h5>
-                        <button>Vist Store<i class="material-icons">chevron_right</i></button>
+                        <button>Vist Store<i className="material-icons">chevron_right</i></button>
                     </div>
                 </div>
             </div>

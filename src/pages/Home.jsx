@@ -1,4 +1,5 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 import { NavLink } from 'react-router-dom'
 import Accordion from '../componets/Accordion'
 import AuctionProducts from '../componets/AuctionProducts'
@@ -7,6 +8,8 @@ import HomeCarusel from '../componets/carusels/HomeCarusel'
 import NewProducts from '../componets/NewProducts'
 
 function Home() {
+    const { posts } = useSelector(state => state.posts)
+    console.log(posts);
     return (
         <div className='body_div'>
             <div className='center_div_body'>
